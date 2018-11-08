@@ -52,7 +52,6 @@ const Navbar =(props) => (
         <BoxTeam>When</BoxTeam>
         <BoxTeam>FAQs</BoxTeam>
         <BoxTeam>Contract</BoxTeam>
-        <BoxC>ประกาศผล</BoxC>
         </BoxA>
 </Box>
 )
