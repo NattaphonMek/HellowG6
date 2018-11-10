@@ -12,11 +12,11 @@ class App extends Component {
       <div className="App">
       
       
-      <What/>
       {/* <Contact/> */}
      
       <Navbar />
       <Landing />
+      <What/>
 
       </div>
     );
