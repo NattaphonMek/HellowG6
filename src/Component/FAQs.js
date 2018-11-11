@@ -53,31 +53,31 @@ const FAQs =(props) => (
                     </Head>
                 </div>
     <box1 class="col-md-7">
-        <M2 src="./Images/FAQs/Star.png"/>
+        <M2 src="/Images/FAQs/Star.png"/>
     </box1>
         <div className="row">
         <Box class="col-md-7">
              <div className="rowpic">
-             <M src="./Images/FAQs/QA1.png"/>
+             <M src="/Images/FAQs/QA1.png"/>
              </div>
              <br></br>
              <br></br>
              <div className="rowpic">
-                <M src="./Images/FAQs/QA2.png"/>
+                <M src="/Images/FAQs/QA2.png"/>
              </div>
              <br></br>
              <br></br>
                <div className="rowpic">
-               <M src="./Images/FAQs/QA3.png"/>
+               <M src="/Images/FAQs/QA3.png"/>
              </div>
              <br></br>
              <br></br>
                <div className="rowpic">
-                <M src="./Images/FAQs/QA4.png"/>
+                <M src="/Images/FAQs/QA4.png"/>
              </div>
             </Box>
             <Box class="col-md-5">
-                <Images src="./Images/who/shibadraf2.png"/>
+                <Images src="/Images/who/shibadraf2.png"/>
             </Box>
             </div>    
         </div>

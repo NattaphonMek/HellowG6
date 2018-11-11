@@ -60,17 +60,17 @@ const Where =(props) => (
                 </div>
             <div className="row">
                 <Box class="col-lg-6">
-                    <Images src="./Images/where/Shibadrafwhere.png"/>
+                    <Images src="/Images/where/Shibadrafwhere.png"/>
                 </Box>
                 <Box class="col-lg-8">
-                    <Map src="./Images/where/map.png"/>
+                    <Map src="/Images/where/map.png"/>
                     <br></br>
                     <br></br>  
                 <div className="row">
                 <div className="col-lg-1">
-                <M2 src="./Images/where/maps-and-flags.png"/>
+                <M2 src="/Images/where/maps-and-flags.png"/>
                 </div><div className="col-lg-4">
-                <M src="./Images/where/IT.png"/>
+                <M src="/Images/where/IT.png"/>
                 </div>
                 </div>   
                 </Box>

@@ -60,25 +60,25 @@ const Who =(props) => (
                     </Head>
                 </div>
     <box1 class="col-md-7">
-        <M2 src="./Images/who/M.png"/>
+        <M2 src="/Images/who/M.png"/>
     </box1>
         <div className="row">
             <Box class="col-md-5">
-                <Images src="./Images/who/shibadraf2.png"/>
+                <Images src="/Images/who/shibadraf2.png"/>
             </Box>
             <Box class="col-md-7">
              <div className="rowpic">
-                <M src="./Images/who/download.png"/>
+                <M src="/Images/who/download.png"/>
                 <div>All People</div>
              </div>
              <br></br>
              <div className="rowpic">
-                <M src="./Images/who/download (1).png"/>
+                <M src="/Images/who/download (1).png"/>
                 <div>SCI-MATH</div>
              </div>
              <br></br>
                <div className="rowpic">
-                <M src="./Images/who/download (2).png"/>
+                <M src="/Images/who/download (2).png"/>
                 <div>MATH-ENG</div>
              </div>
             </Box>
@@ -86,12 +86,12 @@ const Who =(props) => (
             <br></br>
             <br></br>
              <div className="rowpic">
-                <M src="./Images/who/download (3).png"/>
+                <M src="/Images/who/download (3).png"/>
                 <div>HIGH SCHOOL<br></br>STUDENT</div>
              </div>
              <br></br>
              <div className="rowpic">
-                <M src="./Images/who/download (4).png"/>
+                <M src="/Images/who/download (4).png"/>
                 <div>CAMP</div>
              </div>
             </Box>

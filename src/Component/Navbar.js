@@ -26,6 +26,7 @@ const BoxB = styled.img`
 text-align: center;
 display : inline-block;
 float : left;
+z-index:11;
 
 `
 
@@ -56,7 +57,7 @@ padding : 1em 0.5em;
 const Navbar =(props) => (
 <Box class='navbar navbar-expand'>
 <BoxA class="topnavbar">
-        {/* <BoxB scr ="./images/pawprints.png "/> */}
+        <BoxB scr = '/images/pawprints.png ' />
         <BoxC><BoxTeam>Home</BoxTeam></BoxC>
         <BoxC><BoxTeam>What</BoxTeam></BoxC>
         <BoxC><BoxTeam>Where</BoxTeam></BoxC>
