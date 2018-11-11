@@ -15,8 +15,8 @@ font-weight: bold
 font-family: 'Press Start 2P', cursive;
 `
 const Images = styled.img`
-margin : 0px 2em ;
-height: 550px;
+float:left;
+height: 474px;
 
 `
 const Box = styled.div`
@@ -50,7 +50,7 @@ font-family: 'Press Start 2P', cursive;
 const Who =(props) => (
 <Body>
         <br></br>
-        <br></br>
+        
         <Box className="container">
             <div className="row">
                 <div class="col-md-5">
@@ -64,6 +64,7 @@ const Who =(props) => (
     </box1>
         <div className="row">
             <Box class="col-md-5">
+            <br />
                 <Images src="/Images/where/Shibadrafwhere.png"/>
             </Box>
             <Box class="col-md-7">
