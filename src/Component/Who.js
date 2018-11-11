@@ -26,6 +26,7 @@ font-size : 25px
 text-align : center
 font-weight: bold
 font-family: 'Press Start 2P', cursive;
+z-index: 1;
 `
 const M = styled.img`
 height: 100px;

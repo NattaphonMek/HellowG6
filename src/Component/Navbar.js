@@ -10,7 +10,7 @@ width: 100vw;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 position: sticky;
 top: 0;
-z-index: 0;
+z-index: 10;
 float: center;
 
 `
