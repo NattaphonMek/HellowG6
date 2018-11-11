@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import './what1.css'
+
 
 const ColorSpan = styled.div` 
-height: 900px;
-weight: 1400px;
-background-Repeat: no-repeat;
-background-Size: 100%;
-z-index: 1; 
+height:100vh;
+width:100vw;
+background-image : url('/images/What.png') ;
+background-size: cover;
 `
 const Font = styled.div`
 font-Family: 'Athiti', sans-serif;
@@ -32,8 +31,8 @@ class What extends Component {
   render() {
     return (
       <ColorSpan >
-        <div className="prang">          
-            <div className=" column content">
+        <div >          
+            <div>
             <br /><br /><br />
               <br /><br /><br /><Font1>What ? </Font1><br />
               <br /><br />

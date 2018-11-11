@@ -5,18 +5,18 @@ const Box = styled.div`
 background-color: #ffffff;
 display : inline-block;
 text-align: center;
-height :80px
-width: 100%;
+height : 80px
+width: 100vw;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 position: sticky;
 top: 0;
-z-index: 1071;
+z-index: 0;
 `
 const BoxA = styled.span`
 display : inline-block;
 text-align: center;
-padiing : 10px
-width: 85%;
+padding : 3px
+width: 100%;
 
 `
 const BoxB = styled.img`
@@ -43,12 +43,12 @@ font-weight: bold;
 text-align: center;
 font-size: 18px;
 display : inline-block;
-padding : 20px;
+padding : 25px;
 `
 const Navbar =(props) => (
 <Box class='navbar navbar-expand'>
 <BoxA class="topnavbar">
-        <BoxB scr ="./images/pawprints.png "/>
+        {/* <BoxB scr ="./images/pawprints.png "/> */}
         <BoxTeam>Home</BoxTeam>
         <BoxTeam>What</BoxTeam>
         <BoxTeam>Where</BoxTeam>

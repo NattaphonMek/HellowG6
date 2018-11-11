@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-background: url('images/where/Fuji.png') center 100% no-repeat #000000;
+background: url('images/where/Fuji.png');
 position: center;
 `
 

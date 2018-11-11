@@ -9,10 +9,17 @@ const Sdiv = styled.div `
 `
 const Bgcolor = styled.div `
     background-color: #0C557F;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
 `
 
 const Styimg = styled.img `
     margin: 1em 1em;
+`
+const Shiba = styled.img`
+    height:63vh;
+    width:63vw;
 `
 
 export class Landing extends React.Component {
@@ -27,8 +34,8 @@ export class Landing extends React.Component {
 
                     <Sdiv>"HELLO SHIBA"</Sdiv>
                     
-                    <img src='/images/Shibadraf21.png' />
-              
+                    <Shiba src='/images/Shibadraf21.png' />
+                    
             </Bgcolor>
         )
     }

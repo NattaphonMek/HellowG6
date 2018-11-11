@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-background: url('images/who/PixelArtWho.png') center 115% no-repeat #552f68;
+background: url('images/who/PixelArtWho.png');
 `
 
 const Head = styled.h1`
