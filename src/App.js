@@ -5,6 +5,8 @@ import What from './Component/What'
 // import Contact from './Component/Contact';
 import Navbar from './Component/Navbar.js'
 import Landing from './Component/Landing.js'
+import Who from './Component/Who.js'
+import Where from './Component/Where.js'
 
 class App extends Component {
   render() {
@@ -14,9 +16,11 @@ class App extends Component {
       
       {/* <Contact/> */}
      
-      <Navbar />
       <Landing />
+      <Navbar />
       <What/>
+      <Who/>
+      <Where/>
 
       </div>
     );

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Navbar from './Navbar.js'
 import styled from 'styled-components'
 import './what1.css'
 
@@ -17,7 +16,8 @@ font-Size: 24px;
 margin-Left: 400px;
 `
 const Font1 = styled.div`
-font-Family: font-family: 'Quantico', sans-serif;
+font-weight: bold
+font-family: 'Press Start 2P', cursive;
 color: white ;
 font-Size: 60px; 
 margin-Left: 400px;
@@ -32,7 +32,6 @@ class What extends Component {
   render() {
     return (
       <ColorSpan >
-        <Navbar />
         <div className="prang">          
             <div className=" column content">
             <br /><br /><br />
@@ -49,10 +48,6 @@ class What extends Component {
               และลงมือปฏิบัติจริงด้านวิชาการ ความสนุกสนานจากกิจกรรม รวมถึงมิตรภาพจากพี่ ๆ เพื่อน ๆ ในค่ายทุกคน <br /></Font>
             </div>
           </ div>
-
-
-
-
       </ColorSpan>
     );
   }
