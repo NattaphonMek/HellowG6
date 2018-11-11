@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-background: url('images/who/PixelArtWho.png') center 115% no-repeat #552f68;
+background: url('images/FAQs/orig.png') center 115% no-repeat #f5c286;
 `
 
 const Head = styled.h1`
@@ -18,16 +18,11 @@ height: 550px;
 
 `
 const Box = styled.div`
-color : white;
-padding : 20px
-font-size : 25px
-text-align : center
-font-weight: bold
-font-family: 'Press Start 2P', cursive;
 `
 const M = styled.img`
-height: 100px;
-width: 100px;
+height: 180px;
+width: 600px;
+float: right;
 padding : 10px
 `
 const M2 = styled.img`
@@ -43,8 +38,7 @@ text-align : center
 font-weight: bold
 font-family: 'Press Start 2P', cursive;
 `
-
-const Who =(props) => (
+const FAQs =(props) => (
 <Body>
         <br></br>
         <br></br>
@@ -53,50 +47,41 @@ const Who =(props) => (
                 <div class="col-md-5">
                     <Head>
                         <br></br>
-                        WHO
+                        FAQs
                     </Head>
                 </div>
     <box1 class="col-md-7">
-        <M2 src="./Images/who/M.png"/>
+        <M2 src="./Images/FAQs/Star.png"/>
     </box1>
         <div className="row">
-            <Box class="col-md-5">
-                <Images src="./Images/who/shibadraf2.png"/>
-            </Box>
-            <Box class="col-md-7">
+        <Box class="col-md-7">
              <div className="rowpic">
-                <M src="./Images/who/download.png"/>
-                <div>All People</div>
+             <M src="./Images/FAQs/QA1.png"/>
              </div>
              <br></br>
+             <br></br>
              <div className="rowpic">
-                <M src="./Images/who/download (1).png"/>
-                <div>SCI-MATH</div>
+                <M src="./Images/FAQs/QA2.png"/>
              </div>
+             <br></br>
              <br></br>
                <div className="rowpic">
-                <M src="./Images/who/download (2).png"/>
-                <div>MATH-ENG</div>
-             </div>
-            </Box>
-            <Box class="col-md-7">
-            <br></br>
-            <br></br>
-             <div className="rowpic">
-                <M src="./Images/who/download (3).png"/>
-                <div>HIGH SCHOOL<br></br>STUDENT</div>
+               <M src="./Images/FAQs/QA3.png"/>
              </div>
              <br></br>
-             <div className="rowpic">
-                <M src="./Images/who/download (4).png"/>
-                <div>CAMP</div>
+             <br></br>
+               <div className="rowpic">
+                <M src="./Images/FAQs/QA4.png"/>
              </div>
+            </Box>
+            <Box class="col-md-5">
+                <Images src="./Images/who/shibadraf2.png"/>
             </Box>
             </div>    
         </div>
     </Box>
     <br></br>
-    </Body>    
-    )
-    
-    export default Who
+    </Body>        
+        )
+        
+        export default FAQs

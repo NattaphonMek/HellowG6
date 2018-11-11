@@ -25,7 +25,7 @@ height: 82px;
 width: 400px;
 `
 const Map = styled.img`
-width: 400px;
+width: 520px;
 `
 const M2 = styled.img`
 height: 50px;
