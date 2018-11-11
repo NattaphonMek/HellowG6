@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 const Body = styled.div`
 background: url('images/who/PixelArtWho.png') center 115% no-repeat #552f68;
+    height:100vh;
+    width:100vw;
 `
 
 const Head = styled.h1`

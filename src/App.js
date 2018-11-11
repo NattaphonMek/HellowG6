@@ -7,7 +7,7 @@ import Navbar from './Component/Navbar.js'
 import Landing from './Component/Landing.js'
 import Who from './Component/Who.js'
 import Where from './Component/Where.js'
-import When from './Component/When.js'
+// import When from './Component/When.js'
 import FAQs from './Component/FAQs.js'
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
       <Where/>
       <Who/>
       <FAQs/>
-      <When/> 
+       
       </div>
     );
   }

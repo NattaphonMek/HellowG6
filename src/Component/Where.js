@@ -4,6 +4,9 @@ import styled from 'styled-components'
 const Body = styled.div`
 background: url('images/where/Fuji.png');
 position: center;
+height:100vh;
+width:100vw;
+background-size: cover;
 `
 
 const Head = styled.h1`

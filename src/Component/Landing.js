@@ -5,7 +5,7 @@ const Sdiv = styled.div `
     font-family: 'Press Start 2P', cursive;
     font-size: 87px;
     line-height: 81px;
-    margin: 1em 1em;
+    margin: 0.5em 0.5em;
 `
 const Bgcolor = styled.div `
     background-color: #0C557F;
