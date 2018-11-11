@@ -8,6 +8,7 @@ import Landing from './Component/Landing.js'
 import Who from './Component/Who.js'
 import Where from './Component/Where.js'
 import When from './Component/When.js'
+import FAQs from './Component/FAQs.js'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
       <What/>
       <Where/>
       <Who/>
+      <FAQs/>
       <When/> 
       </div>
     );
