@@ -64,7 +64,7 @@ const Who =(props) => (
     </box1>
         <div className="row">
             <Box class="col-md-5">
-                <Images src="/Images/who/Shibadraf2.png"/>
+                <Images src="/Images/where/Shibadrafwhere.png"/>
             </Box>
             <Box class="col-md-7">
              <div className="rowpic">
