@@ -5,24 +5,28 @@ const Box = styled.div`
 background-color: #ffffff;
 display : inline-block;
 text-align: center;
-height : 80px
+height : 80px;
 width: 100vw;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 position: sticky;
 top: 0;
 z-index: 0;
+float: center;
+
 `
 const BoxA = styled.span`
 display : inline-block;
 text-align: center;
 padding : 3px
 width: 100%;
+margin: 0.5em;
 
 `
 const BoxB = styled.img`
 text-align: center;
 display : inline-block;
 float : left;
+
 `
 
 const BoxC = styled.button`
@@ -31,31 +35,35 @@ font-family: 'Mali', cursive;
 background-color: #ffcd3c;
 font-size: 15px;
 width: 100px;
-border-radius : 4px;
+border-radius : 3px;
 color: #603700;
-border : 3px solid #5c3c10;
-padding : 8px;
+border : 2px solid #5c3c10;
+padding : 0.25em 0.25em;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-`
+margin: 0.5em
+
+&:hover {
+        background: #0C557F;
+}
+`;
 const BoxTeam = styled.a`
 font-family: 'Press Start 2P', cursive;
-font-weight: bold;
 text-align: center;
-font-size: 18px;
+font-size: 10px;
 display : inline-block;
-padding : 25px;
+padding : 1em 0.5em;
 `
 const Navbar =(props) => (
 <Box class='navbar navbar-expand'>
 <BoxA class="topnavbar">
         {/* <BoxB scr ="./images/pawprints.png "/> */}
-        <BoxTeam>Home</BoxTeam>
-        <BoxTeam>What</BoxTeam>
-        <BoxTeam>Where</BoxTeam>
-        <BoxTeam>Who</BoxTeam>
-        <BoxTeam>When</BoxTeam>
-        <BoxTeam>FAQs</BoxTeam>
-        <BoxTeam>Contract</BoxTeam>
+        <BoxC><BoxTeam>Home</BoxTeam></BoxC>
+        <BoxC><BoxTeam>What</BoxTeam></BoxC>
+        <BoxC><BoxTeam>Where</BoxTeam></BoxC>
+        <BoxC><BoxTeam>Who</BoxTeam></BoxC>
+        <BoxC><BoxTeam>When</BoxTeam></BoxC>
+        <BoxC><BoxTeam>FAQs</BoxTeam></BoxC>
+        <BoxC><BoxTeam>Contract</BoxTeam></BoxC>
         </BoxA>
 </Box>
 )
