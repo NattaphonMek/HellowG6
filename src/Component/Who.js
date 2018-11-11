@@ -15,7 +15,7 @@ font-weight: bold
 font-family: 'Press Start 2P', cursive;
 `
 const Images = styled.img`
-margin : 0px 5em ;
+margin : 0px 2em ;
 height: 550px;
 
 `
