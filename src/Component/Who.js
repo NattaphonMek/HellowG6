@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-background: url('images/who/PixelArtWho.png') center 115% no-repeat #552f68;
+background: url('Images/who/PixelArtWho.png') center 115% no-repeat #552f68;
     height:100vh;
     width:100vw;
 `
@@ -64,7 +64,7 @@ const Who =(props) => (
     </box1>
         <div className="row">
             <Box class="col-md-5">
-                <Images src="/Images/who/shibadraf2.png"/>
+                <Images src="/Images/who/Shibadraf2.png"/>
             </Box>
             <Box class="col-md-7">
              <div className="rowpic">

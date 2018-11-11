@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-background: url('images/FAQs/orig.png') center 115% no-repeat #f5c286;
+background: url('Images/FAQs/orig.png') center 115% no-repeat #f5c286;
 height:100vh;
     width:100vw;
 `

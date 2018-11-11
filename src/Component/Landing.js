@@ -27,14 +27,14 @@ export class Landing extends React.Component {
         return (
             <Bgcolor>
               
-              <Styimg src='/images/kmutt.png' width='64.53px' height='74.69px' /> 
-              <Styimg src='/images/sit.png' width='162px' height='53px' />
-                    <Styimg src='/images/alchemist.png' width='52px' height='61px' />
+              <Styimg src='/Images/kmutt.png' width='64.53px' height='74.69px' /> 
+              <Styimg src='/Images/sit.png' width='162px' height='53px' />
+                    <Styimg src='/Images/alchemist.png' width='52px' height='61px' />
                     
 
                     <Sdiv>"HELLO SHIBA"</Sdiv>
                     
-                    <Shiba src='/images/Shibadraf21.png' />
+                    <Shiba src='/Images/Shibadraf21.png' />
                     
             </Bgcolor>
         )

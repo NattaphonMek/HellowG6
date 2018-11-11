@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const ColorSpan = styled.div` 
 height:100vh;
 width:100vw;
-background-image : url('/images/What.png') ;
+background-image : url('/Images/what.png') ;
 background-size: cover;
 `
 const Font = styled.div`
