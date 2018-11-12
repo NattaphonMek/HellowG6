@@ -9,6 +9,7 @@ import Who from './Component/Who.js'
 import Where from './Component/Where.js'
 import When from './Component/When.js'
 import FAQs from './Component/FAQs.js'
+//import Nav from './Component/Nav'
 
 class App extends Component {
   render() {
@@ -31,11 +32,15 @@ class App extends Component {
       </div>
       <div id="who">
       <Who/>
+<<<<<<< HEAD
       </div>
       <div id="when">
       <When/>
       </div>
       <div id="faqs">
+=======
+      <When/>
+>>>>>>> e6d5563c3134a14cf2cd2225ac7e017386da0f41
       <FAQs/>
       </div>
        

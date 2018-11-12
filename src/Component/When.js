@@ -48,7 +48,11 @@ const When =(props) => (
       <Box className="container">
           <div className="row">
               <div class="col-lg-5">
+<<<<<<< HEAD
               <M2 src="/Images/when/98f82fc462adcd7.png"/>
+=======
+              <M2 src="/Images/when/sun.png"/>
+>>>>>>> e6d5563c3134a14cf2cd2225ac7e017386da0f41
                   <Head>
                       <br></br>
                       WHEN
@@ -62,6 +66,7 @@ const When =(props) => (
               </Box>
               <Box class="col-md-2">
              <div className="rowpic">
+<<<<<<< HEAD
              <M src="./Images/download (6).png"/>
              </div>
              <div className="rowpic">
@@ -72,6 +77,18 @@ const When =(props) => (
              </div>
              <div className="rowpic">
                <M src="./Images/download (6).png"/>
+=======
+             <M src="/Images/download6.png"/>
+             </div>
+             <div className="rowpic">
+                <M src="/Images/download6.png"/>
+             </div>
+               <div className="rowpic">
+               <M src="/Images/download6.png"/>
+             </div>
+             <div className="rowpic">
+               <M src="/Images/download6.png"/>
+>>>>>>> e6d5563c3134a14cf2cd2225ac7e017386da0f41
              </div>
             </Box>
             <Box class="col-md-5">
