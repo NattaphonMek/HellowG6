@@ -9,6 +9,7 @@ import Who from './Component/Who.js'
 import Where from './Component/Where.js'
 import When from './Component/When.js'
 import FAQs from './Component/FAQs.js'
+import Contact from './Component/Contact.js'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
       <Who/>
       <When/>
       <FAQs/>
+      <Contact/>
        
       </div>
     );

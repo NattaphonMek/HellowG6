@@ -10,7 +10,7 @@ background-size: cover;
 `
 
 const Head = styled.h1`
-padding : 12px
+padding : 12px;
 color : white;
 text-align : center
 font-weight: bold
@@ -38,13 +38,13 @@ float: right;
 
 const Head2 = styled.h1`
 color : white;
-padding : 20px
-text-align : center
-font-weight: bold
+padding : 20px;
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 `
 
-const Where =(props) => (
+const Where = (props) => (
     <Body>
         <br></br>
         <br></br>
@@ -52,34 +52,26 @@ const Where =(props) => (
             <div className="row">
                 <div class="col-lg-5">
                     <Head>
-                        <br></br>
-                        WHERE
+                        <br></br><br />
+                        
                     </Head>
                 </div>
-                <div class="col-lg-7">
-                </div>
-            <div className="row">
-                <Box class="col-lg-6">
-                    <Images src="/Images/where/Shibadrafwhere.png"/>
-                </Box>
-                <Box class="col-lg-8">
-                    <Map src="/Images/where/map.png"/>
-                    <br></br>
-                    <br></br>  
-                <div className="row">
-                <div className="col-lg-1">
-                <M2 src="/Images/where/maps-and-flags.png"/>
-                </div><div className="col-lg-4">
-                <M src="/Images/where/IT.png"/>
-                </div>
-                </div>   
-                </Box>
-                </div>    
             </div>
+            {/* <div className="col-lg-7">
+                <div className="col-lg-7">
+                    <M2 src="/Images/where/maps-and-flags.png" />
+                </div>
+
+                <div className="col-lg-6">
+                    <br /><br /><br />
+                    คณะเทคโนโลยีสารสนเทศ
+                    มหาวิทยาลัยเทคโนโลย๊พระจอมเกล้าธนบุรี
+                            </div>
+            </div> */}
         </Box>
         <br></br>
-        </Body>    
-      
-        )
-        
-        export default Where
+    </Body>
+
+)
+
+export default Where
