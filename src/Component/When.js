@@ -9,10 +9,10 @@ width:100vw;
 background-size: cover;
 `
 const Head = styled.h1`
-padding : 12px
+padding : 12px;
 color : white;
-text-align : center
-font-weight: bold
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 `
 const Images = styled.img`
@@ -34,10 +34,10 @@ float: right;
 
 const Head2 = styled.div`
 color : white;
-padding : 10px
-font-size : 20px
-text-align : center
-font-weight: bold
+padding : 10px;
+font-size : 20px;
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 `
 

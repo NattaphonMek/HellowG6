@@ -137,6 +137,9 @@ const Navbar = () => (
           <li class="nav-item pl-5 ">
             <A class="nav-link" href="#faqs">FAQs</A>
           </li>
+          <li class="nav-item pl-5 ">
+            <A class="nav-link" href="#contact">Contact</A>
+          </li>
         </ul>
       </div>
 
