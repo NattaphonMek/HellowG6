@@ -32,15 +32,11 @@ class App extends Component {
       </div>
       <div id="who">
       <Who/>
-<<<<<<< HEAD
       </div>
       <div id="when">
       <When/>
       </div>
       <div id="faqs">
-=======
-      <When/>
->>>>>>> e6d5563c3134a14cf2cd2225ac7e017386da0f41
       <FAQs/>
       </div>
        

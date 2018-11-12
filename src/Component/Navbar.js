@@ -95,7 +95,6 @@ const A = styled.a`
 }
    
 `
-<<<<<<< HEAD
 
 const Img = styled.img `
 width : 100px ;
@@ -148,21 +147,6 @@ const Navbar = () => (
    
   
   </Nav>
-=======
-const Navbar =(props) => (
-<Box class='navbar navbar-expand'>
-<BoxA class="topnavbar">
-        <BoxB scr = '/Images/pawprints.png ' />
-        <BoxC><BoxTeam>Home</BoxTeam></BoxC>
-        <BoxC><BoxTeam>What</BoxTeam></BoxC>
-        <BoxC><BoxTeam>Where</BoxTeam></BoxC>
-        <BoxC><BoxTeam>Who</BoxTeam></BoxC>
-        <BoxC><BoxTeam>When</BoxTeam></BoxC>
-        <BoxC><BoxTeam>FAQs</BoxTeam></BoxC>
-        <BoxC><BoxTeam>Contact</BoxTeam></BoxC>
-        </BoxA>
-</Box>
->>>>>>> e6d5563c3134a14cf2cd2225ac7e017386da0f41
 )
 
 export default Navbar
