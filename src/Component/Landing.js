@@ -5,7 +5,8 @@ const Sdiv = styled.div `
     font-family: 'Press Start 2P', cursive;
     font-size: 87px;
     line-height: 81px;
-    margin: 0.5em 0.5em;
+    margin: 0.275em 0.5em;
+    color: white;
 `
 const Bgcolor = styled.div `
     background-color: #0C557F;
@@ -15,7 +16,7 @@ const Bgcolor = styled.div `
 `
 
 const Styimg = styled.img `
-    margin: 1em 1em;
+    margin: 2em 1em;
 `
 const Shiba = styled.img`
     height:63vh;
