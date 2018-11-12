@@ -129,7 +129,7 @@ const Navbar = () => (
             <A class="nav-link" href="#where">Where</A>
           </li>
           <li class="nav-item pl-5 ">
-            <A class="nav-link" href="#who">who</A>
+            <A class="nav-link" href="#who">Who</A>
           </li>
           <li class="nav-item pl-5 ">
             <A class="nav-link" href="#when">When</A>
