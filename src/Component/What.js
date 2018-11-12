@@ -15,7 +15,7 @@ font-Size: 24px;
 margin-Left: 400px;
 `
 const Font1 = styled.div`
-font-weight: bold
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 color: white ;
 font-Size: 60px; 

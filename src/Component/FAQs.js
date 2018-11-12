@@ -8,10 +8,10 @@ height:120vh;
 `
 
 const Head = styled.h1`
-padding : 12px
+padding : 12px;
 color : white;
-text-align : center
-font-weight: bold
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 `
 const Images = styled.img`
@@ -25,7 +25,7 @@ const M = styled.img`
 height: 180px;
 width: 600px;
 float: right;
-padding : 10px
+padding : 10px;
 `
 const M2 = styled.img`
 height: 150px;
@@ -35,9 +35,9 @@ float: right;
 
 const Head2 = styled.h1`
 color : white;
-padding : 20px
-text-align : center
-font-weight: bold
+padding : 20px;
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 `
 const FAQs =(props) => (

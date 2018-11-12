@@ -12,15 +12,13 @@ position: sticky;
 top: 0;
 z-index: 10;
 float: center;
-
 `
 const BoxA = styled.div`
 display : inline-block;
 text-align: center;
-padding : 3px
+padding : 3px;
 width: 100%;
 margin: 0.5em;
-
 `
 const BoxB = styled.img`
 text-align: center;
@@ -41,12 +39,12 @@ color: #603700;
 border : 2px solid #5c3c10;
 padding : 0.25em 0.25em;
 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-margin: 0.5em
+margin: 0.5em;
 
 &:hover {
         background: #0C557F;
 }
-`;
+`
 const BoxTeam = styled.a`
 font-family: 'Press Start 2P', cursive;
 text-align: center;

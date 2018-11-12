@@ -10,15 +10,11 @@ background-size: cover;
 `
 
 const Head = styled.h1`
-<<<<<<< HEAD
 padding : 12px;
-=======
-padding : 12px
-font-size : 50px
->>>>>>> cdb8d5e54e25c1e16209956f5a16ada8d99475ac
+font-size : 50px;
 color : white;
-text-align : center
-font-weight: bold
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 `
 const Images = styled.img`

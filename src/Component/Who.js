@@ -8,11 +8,11 @@ background: url('Images/who/PixelArtWho.png') center 115% no-repeat #552f68;
 `
 
 const Head = styled.h1`
-padding : 20px
-font-size : 60px
+padding : 20px;
+font-size : 60px;
 color : white;
-text-align : center
-font-weight: bold
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 `
 const Images = styled.img`
@@ -22,10 +22,10 @@ height: 474px;
 `
 const Box = styled.div`
 color : white;
-padding : 20px
-font-size : 25px
-text-align : center
-font-weight: bold
+padding : 20px;
+font-size : 25px;
+text-align : center;
+font-weight: bold;
 font-family: 'Press Start 2P', cursive;
 z-index: 1;
 `
