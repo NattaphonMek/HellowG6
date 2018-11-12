@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-background: url('Images/when/PixelArt1.png') #df6d6a;
+background: url('Images/static/when/PixelArt1.png') #df6d6a;
 position: center;
 height:100vh;
 width:100vw;
@@ -48,7 +48,7 @@ const When =(props) => (
       <Box className="container">
           <div className="row">
               <div class="col-lg-5">
-              <M2 src="/Images/when/sun.png"/>
+              <M2 src="/Images/static/when/sun.png"/>
                   <Head>
                       <br></br>
                       WHEN
@@ -62,16 +62,16 @@ const When =(props) => (
               </Box>
               <Box class="col-md-2">
              <div className="rowpic">
-             <M src="/Images/download6.png"/>
+             <M src="/Images/static/when/download6.png"/>
              </div>
              <div className="rowpic">
-                <M src="/Images/download6.png"/>
+                <M src="/Images/static/when/download6.png"/>
              </div>
                <div className="rowpic">
-               <M src="/Images/download6.png"/>
+               <M src="/Images/static/when/download6.png"/>
              </div>
              <div className="rowpic">
-               <M src="/Images/download6.png"/>
+               <M src="/Images/static/when/download6.png"/>
              </div>
             </Box>
             <Box class="col-md-5">
