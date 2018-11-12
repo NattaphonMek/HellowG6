@@ -11,6 +11,7 @@ background-size: cover;
 
 const Head = styled.h1`
 padding : 12px
+font-size : 50px
 color : white;
 text-align : center
 font-weight: bold

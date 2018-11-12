@@ -62,16 +62,16 @@ const When =(props) => (
               </Box>
               <Box class="col-md-2">
              <div className="rowpic">
-             <M src="./Images/download (6).png"/>
+             <M src="/Images/download (6).png"/>
              </div>
              <div className="rowpic">
-                <M src="./Images/download (6).png"/>
+                <M src="/Images/download (6).png"/>
              </div>
                <div className="rowpic">
-               <M src="./Images/download (6).png"/>
+               <M src="/Images/download (6).png"/>
              </div>
              <div className="rowpic">
-               <M src="./Images/download (6).png"/>
+               <M src="/Images/download (6).png"/>
              </div>
             </Box>
             <Box class="col-md-5">

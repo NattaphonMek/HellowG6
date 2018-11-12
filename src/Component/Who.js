@@ -8,7 +8,8 @@ background: url('Images/who/PixelArtWho.png') center 115% no-repeat #552f68;
 `
 
 const Head = styled.h1`
-padding : 12px
+padding : 20px
+font-size : 60px
 color : white;
 text-align : center
 font-weight: bold
@@ -39,13 +40,6 @@ width: 150px;
 float: right;
 `
 
-const Head2 = styled.h1`
-color : white;
-padding : 20px
-text-align : center
-font-weight: bold
-font-family: 'Press Start 2P', cursive;
-`
 
 const Who =(props) => (
 <Body>
